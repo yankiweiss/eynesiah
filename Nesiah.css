@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+ body{
+    background-color: rgb(218, 234, 245);
+    font-style: italic;
+    text-transform: capitalize;
+ }
+
+ #sucseed{
+    color: firebrick;
+    font-size: 75px;
+    text-align: center;
+ }
+ #demo{
+   font-size: 150px;
+   color: navy;
+   text-align: center;
+ }
+#header{
+border-bottom: 2px solid black;
+}
+#section{
+   display: flex;
+
+}
+#section p{
+   border: solid black 1px;
+   padding: 35px;
+   margin: 15px;
+}
+.prev{
+   position: absolute;
+   bottom: 175px;
+   left: 500px;
+   font-size: 35px;
+   color: whitesmoke;
+   cursor: pointer;
+   font-weight: bold;
+}
+.next{
+   position: absolute;
+   bottom: 175px;
+   right: 500px;
+   font-size: 35px;
+   color: whitesmoke;
+   cursor: pointer;
+   font-weight: bold;
+}
+
+.mySlides{
+   border: solid 50px lightblue;
+}
+
+#footer{
+   font-size: 75px;
+   text-align: center;
+   border-top: solid black 2px;
+   padding: 50px;
+    
+}
+footer{
+   background-color: ghostwhite;
+
+}
+
+ 
